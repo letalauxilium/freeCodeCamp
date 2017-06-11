@@ -1,0 +1,63 @@
+/*body{
+    perspective: 1px;
+}
+requires a bunch of numerical fiddling, can't be bothered. */
+
+.bgImage{
+    background-image: url("#");
+    background-attachment: fixed;
+    background-position: center top;    
+    background-repeat: no-repeat;
+    background-size: cover;
+        /* "cover" works differently depending on aspect ratio of image! */
+    /*transform: translateZ(-.1px);*/
+}
+
+[class*="col-sp-"]{
+	width: 100%;
+}
+
+[class*="col-"]{
+	background-color: white;
+}
+	
+@media only screen and (min-width: 800px){
+	.col-sp-main {width: 800px; margin: 0 auto;}
+}
+
+.col-sp-main{
+    padding: 2em;
+}
+
+.inImageText{
+    padding: 50vh 0px;
+    text-align: center;
+    font-family: georgia;
+    font-size: 10vh;
+    color: white;
+}
+
+h1{
+    font-family: georgia;
+    color:red;
+}
+
+h2{
+    font-family: courier new;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    font-family: courier new;
+}
+
+#label{
+    background-color: lightgray;
+}
+
+#leftColumn{
+    text-align: right;
+}

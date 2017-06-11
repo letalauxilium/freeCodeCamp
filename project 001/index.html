@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Devola and Popola!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<!--
+    Popola said to do the above stuff. the first line is identical to freeCodeCamp's stuff.
+    appears first line grabs bootstrap css, second grabs jquery, third grabs bootstrap javascript.
+
+    Help in general read various things from W3Schools.com.
+
+    these too
+
+    https://css-tricks.com/centering-css-complete-guide/
+    https://codepen.io/keithclark/pen/JycFw?editors=1100
+-->
+
+<!--
+TO USE
+    from the intro video: <a href="link" target="_blank"></a>
+        this opens a new tab for the link.
+
+    http://nier.wikia.com/wiki/Devola
+    http://lyrics.wikia.com/wiki/Keiichi_Okabe:Song_Of_The_Ancients
+
+TO DO
+    stuff demonstrated in tutorials:
+        - header texts
+        - ordered/unordered lists
+        - buttons
+            animations in general are annoying... but the library should be browsed a bit.
+        - rounded images!
+    stuff in the code:
+        - css: control styles of certain classes
+        - element is basic unlabelled, class is addition of stuff that already exists, id is arbitrary 
+
+-->
+
+<!--
+    - PLAN -
+    I love Devola!
+
+    HEADER IMAGE: Centered. Goes all the way across. Stays still when scrolling.
+    MAIN BODY: 
+        Margins from edge of the screen.
+        Two main columns. Left is text, should take up maybe 3/4 width. Right is static image.
+            TEXT:
+                Write some opinions.                
+                Then copy paste the lyrics.
+                There's not actually enough text to fill the vertical space.
+            STATIC IMAGE:
+                Devola's concept art.
+    FOOTER IMAGE: same logic as header.
+-->
+
+<body>
+    <div id="header" class="bgImage inImageText">
+        Devola&nbsp;and&nbsp;Popola
+    </div>
+
+    <div class="container-fluid">
+
+        <div id="label">
+
+            <h4><b>freeCodeCamp</b><br>
+            <i>Basic Front End Development Project - Tribute Page</i><br>
+            letalauxilium</h4>
+
+        </div>
+
+        <div id="main" class="bgImage">
+
+            <div class="col-sp-main">
+
+                <p>Devola and Popola are twins from the videogame <i>
+                NieR</i>, and its sequel, <i>NieR:Automata</i>.</p>
+                <p>In <i>NieR</i>, they are the matriarchs of the protagonist's
+                home village. Popola resides in a library of books from a past
+                civilization that only she can read, and handles most of the more
+                complicated tasks. Devola can be found first outside near the
+                fountain, then later in the tavern, and is quite carefree in
+                comparison. She spends her days playing a lute, a tune which
+                serves as the background track for the village, and, if you're
+                close enough nearby, you can hear her sing along.</p>
+                <p>It's a song she doesn't really understand.</p>
+
+                <blockquote><i>What kind of idiot sings a song without knowing what it means?!</i></blockquote>
+                <blockquote><i>...This kind of idiot?</i></blockquote>
+
+                <center><h1>I love Devola!</h1></center>
+                <br>
+
+                <p>Their main functions as videogame NPCs are to provide quests
+                Popola, with her position and access to vast amounts of knowledge,
+                is a stopping point every now and again along the storyline.
+                Devola with her free time listens and chats with villagers who pass by,
+                and relays to us optional sidequests we can take. These sidequests make up
+                a fair portion of the game's playtime, perhaps half the total hours by the end.
+                These sidequests are the flavor and worldbuilding for the game's story -
+                just like how Devola is the flavor to Popola.</p>
+                
+                <p>One sidequest chain involves collecting strange ingredients to brew a
+                special alcoholic drink allows you to ask Popola to come out to the inn
+                and sing a duet version with Devola. Devola apparently doesn't get any though,
+                because under the influence she "gets a bit too friendly".</p>
+
+                <p>In <i>Automata</i> they are travellers who happened to be in the area.
+                They are no longer matriarchs, but outcasts, for a crime everyone everywhere
+                will forever find unforgivable. But, they have unique skills, so they're begrudgingly
+                allowed to be around to do work no one else can do. They're the same old Devola
+                and Popola though - what could have happened?</p>
+
+                <br>
+                
+                <p>The song Devola (and Popola) sings, which is never explicitly named in-universe,
+                has the title <b>Song of the Ancients</b>. Over the course of the two games the song makes
+                appearances in multiple versions at multiple times. In this player's opinion, this song,
+                its various remixes, and its implementations make it the best piece of music ever composed.</p>
+
+                <p>The song's lyrics, as well as more information about Devola and Popola, can be found below.</p>
+
+                <br>
+
+                <p>If you haven't already, I hope you consider playing Devola and Popola's games!</p>
+
+
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h2><center>Song of the Ancients</center></h2>
+
+        <hr>
+
+        <div id="lyrics" class="bgImage">
+
+            <div class="col-sp-main">
+
+                <div class="row">
+
+                    <div id="leftColumn" class="col-sm-6">
+
+                        <!--<h3 id="Devola"><a href="#">Devola</a></h3>-->
+                        <a id="Devola"><h3>Devola</h3></a>
+
+                        <hr>
+                        
+                        <p>kuwata tsunowo vralai<br>
+                        tsuriji pufuralekai<br>
+                        kwondzuvai undovartsu wronduwail<br>
+                        tjortetei jeki liago</p>
+                        <p>jiunmata ivelischpfuli<br>
+                        neftyoma sorepiyamei<br>
+                        schijiyako alefni fatalliliya<br>
+                        nic'hpisfa unhoreselye</p>
+                        <p>otrajain aforeje kurasolda<br>
+                        towari hatasei mic'hatasei tsufrallai<br>
+                        otrajain aforeje kurasolda<br>
+                        towari hatasei mic'hatasei tsufrallai ilja<br>
+                        ullilya kojijichatjukaijai-wa<br>
+                        nyame fretsumekri fretsumekri linganmai<br>
+                        ulreri manja huteharraku-mu<br>
+                        harirch lahadachfei lahadachfei shindulhwo</p>
+                        
+                    </div>
+
+                    <div class="col-sm-6">
+
+                        <a id="Popola"><h3>Popola</h3></a>
+
+                        <hr>
+
+                        <p>souta tsunowo vralai<br>
+                        saaha pfuraalekai<br>
+                        kwondzuvai undovarts wronduwail<br>
+                        skora jeki liato</p>
+                        <p>langu ivelischpfuli<br>
+                        nyawa sorepiyamei<br>
+                        schijiyako alefni fatalliliya<br>
+                        kali unhoreselye</p>
+                        <p>otrajain aforeje kurasol<br>
+                        towari hatasei mic'hatasei tsufrallai<br>
+                        otrajain aforeje kurasol<br>
+                        towari hatasei mic'hatasei tsufrallai ilja<br>
+                        ullilya kojijichatjukaijai-wau<br>
+                        nyame fretsumekri fretsumekri linganon<br>
+                        fureri manjahute harraku-mu<br>
+                        harirch lahadashei lahadashei shindulo</p>
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </div>
+        
+        <hr>
+
+    </div>
+
+    <div id="footer" class="bgImage inImageText">
+        D&amp;P are the best!
+    </div>
+    
+</body>
+
+</html>
+
+<!--
+    REVIEW
+
+    biggest problem that took the longest time to understand was parallax. turns out it wasn't that hard
+    but needed to learn how to read other peoples code and search for documentation/explanations.
+
+    figuring out how to put text on top of an image took a while because i thought nesting worked in
+    some other way. doing it the second time with the main text body was much easier.
+
+    both of the above problems were solved with the help of a codepen discovered by name via google:
+
+    https://codepen.io/keithclark/pen/JycFw
+
+    the other fancy problem was how to make the main text body work like my blog on wordpress: a
+    pixel width with background image around the sides, until reduced to a certain width, at which point
+    it's percentage based. inspecting my blog produced no results. just thinking about it it seemed impossible
+    to execute with just nesting; there had to either be a special element dedicated to such a thing, or
+    some kind of logic which switched based on width condition. eventually browsing w3schools found that,
+    yes, there is logic available after all. an if/else statement by another name.
+
+    https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+    misc: 
+    - built in Visual Studio Code.
+    - <br> has to go at the end, not the start. doesn't seem important in left-align, but screws things up in right-align.
+-->

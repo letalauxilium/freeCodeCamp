@@ -1,0 +1,28 @@
+intent: have a different column setup depending on the width
+tool: CSS "@media", preferably with Bootstrap columns
+
+	[class*="col-"] {
+		width: 100%
+		}
+	@media only screen and (min-width: 768px){
+		.col-m-1 {width: 8.33%}
+		...
+		}
+
+this is the basic setup. essentially an if/else statement.
+
+	<div>
+		I love Devola etc.
+	</div>
+
+if we want to put text in the center space and have background image on the sides, then the image probably has to go at the <div> level, and have columns that are transparent...
+
+wordpress has a base single fluid column, then at some point it becomes fixed pixel width and the bg grows...
+
+	[class*="col-"]{
+		width: 100%;
+	}
+	
+	@media only screen and (min-width: 1000px){
+		.col-main {width: 1000px;}
+	}
